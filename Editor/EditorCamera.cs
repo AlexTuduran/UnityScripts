@@ -6,7 +6,7 @@ using UnityStandardAssets.ImageEffects;
 [InitializeOnLoad]
 public class EditorCamera : MonoBehaviour {
     static public bool aaEnabled = true;
-    static public bool moreAAEnabled = false;
+    static public bool moreAAEnabled = true;
     static public bool insaneAAEnabled = false;
 
     static EditorCamera() {
