@@ -48,9 +48,6 @@ namespace OmniSARTechnologies.Helper.Graphics {
         }
 
         private string GetCurrentFileName(int width, int height, string ext, string tag) {
-            //SceneManager.GetActiveScene().name
-
-
             return Path.Combine(
                 GetCapturePath(),
                 string.Format(
